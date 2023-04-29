@@ -1,0 +1,5 @@
+br\com\senac\domain\Estudante$EstudanteBuilder.class
+br\com\senac\RestExampleApplication.class
+br\com\senac\controller\EstudanteController.class
+br\com\senac\domain\Estudante.class
+br\com\senac\service\EstudanteService.class
