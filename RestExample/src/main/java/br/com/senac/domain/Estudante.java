@@ -1,7 +1,7 @@
 package br.com.senac.domain;
 
 import java.time.LocalDate;
-//A LocalDate será usada para definir o tipo do Arquivo dataNascimento; também iportaremos o lobok para facilitar os contrutores e os Getters e Setters de nossa classe domain.
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
