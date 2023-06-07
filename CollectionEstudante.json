@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "0f0230b9-41d3-4917-ada8-58179c71eb92",
+		"name": "Collection Estudante",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Listar Estudante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/estudante",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estudante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Estudante por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/estudante/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estudante",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Estudante",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : 2,\r\n    \"nome\" : \"Maria\",\r\n    \"email\" : \"maria@gmail.com\",\r\n    \"dataNascimento\" : \"2000-02-02\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/estudante",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estudante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Estudante",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/estudante",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estudante"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar Estudante",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/estudante",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"estudante"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
